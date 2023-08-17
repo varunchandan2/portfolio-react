@@ -146,22 +146,6 @@ const Projects = () => {
                 </a>
               </div>
             </Fade>
-
-            <Fade left>
-              <div className="col-4 bgMain">
-                <a href={project6Name["projectLink"]}>
-                  <div className="services__box">
-                    <FaSort className="commonIcons" />
-                    <div className="services__box-header">
-                      {project6Name["projectName"]}
-                    </div>
-                    <div className="services__box-p">
-                      {project6Name["projectDes"]}
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </Fade>
           </div>
         </div>
       </div>
